@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: mani002/flask-mysql-app
+    image: test01_web
     restart: always
     ports:
       - "5000-5002:80"
